@@ -1,0 +1,15 @@
+var readline = require ('readline-sync');
+var hasil;
+hasil = kali(10,20);
+
+function kali(a, b) {
+return a * b;
+}
+var a = parseFloat(readline.question(' Masukan nilai a: '))
+var b = parseFloat(readline.question(' Masukan nilai b: '))
+var c;
+
+c = kali(a, b);
+console.log(`${a} x ${b} = ${c}`);
+console.log('alter, var c diganti {kali(a,b)} = ');
+console.log(`${a} x ${b} = ${kali(a,b)}`);
